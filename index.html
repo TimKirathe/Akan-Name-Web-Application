@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Akan-Name-Web-Application</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <div class="container">
-    <body id="body">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card-body">
-            <h1 class="display-1 head1">Welcome!</h1>
-            <p id="para1">This webpage is designed to take the input of your gender and date of birth and calculate the day you were born. Based off of this information the webpage will also return to you what your Akan Name is.</p>
-            <p class="block1">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
-         </div>
+<head>
+  <title>Akan-Name-Web-Application</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<div class="container">
+  <body id="body">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card-body">
+          <h1 class="display-1 head1">Welcome!</h1>
+          <p id="para1">This webpage is designed to take the input of your gender and date of birth and calculate the day you were born. Based off of this information the webpage will also return to you what your Akan Name is.</p>
+          <p class="block1">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
         </div>
-          <br>
-          <div class="akannames">
-            <pre class="col-md-6 akan1">
-              <h3>Male</h3>
-              Sunday: Kwasi
-
-              Monday: Kwadwo
-
-              Tuesday: Kwabena
-
-              Wednesday: Kwaku
-
-              Thursday:  Yaw
-
-              Friday: Kofi
-
-              Saturday: Kwame
-            </pre>
-            <pre class="col-md-6 akan1">
-              <h3>Female</h3>
-              Sunday: Akosua
-
-              Monday: Adwoa
-
-              Tuesday: Abenaa
-
-              Wednesday: Akua
-
-              Thursday:  Yaa
-
-              Friday: Afua
-
-              Saturday: Ama
-            </pre>
-          </div>
       </div>
-          <hr>
-          <label class="label1">Enter your date of birth:</label>
-          <input alt="Date of Birth" id="dobInput" placeholder="Enter your date of birth" type="number" />
-          <button type="submit" id="dobSubmit" onclick="">Submit</button>
-          <br>
-          <label class="label1">Enter your gender:</label>
-          <input alt="Gender Input" id="genderInput" placeholder="Male/Female" type="text" />
-          <button id="genderSubmit" onclick="" type="submit">Submit</button>
-    </body>
-  </div>
+      <br>
+      <div class="akannames">
+        <pre class="col-md-6 akan1">
+   <h3>Male</h3>
+   Sunday: Kwasi
+
+   Monday: Kwadwo
+
+   Tuesday: Kwabena
+
+   Wednesday: Kwaku
+
+   Thursday:  Yaw
+
+   Friday: Kofi
+
+   Saturday: Kwame
+        </pre>
+        <pre class="col-md-6 akan1">
+   <h3>Female</h3>
+   Sunday: Akosua
+
+   Monday: Adwoa
+
+   Tuesday: Abenaa
+
+   Wednesday: Akua
+
+   Thursday:  Yaa
+
+   Friday: Afua
+
+   Saturday: Ama
+        </pre>
+      </div>
+    </div>
+    <hr>
+    <label class="label1">Enter your date of birth:</label>
+    <input alt="Date of Birth" id="dobInput" placeholder="Enter your date of birth" type="date" name="dobInput" required />
+    <button type="submit" id="dobSubmit" onclick="dateInput()" name="dobInput">Submit</button>
+    <br>
+    <label class="label1">Enter your gender:</label>
+    <input alt="Gender Input" id="genderInput" placeholder="Male/Female" type="text" />
+    <button type="submit" id="genderSubmit" onclick="">Submit</button>
+  </body>
+</div>
