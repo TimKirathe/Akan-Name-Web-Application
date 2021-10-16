@@ -8,27 +8,33 @@ function dateInput() {
   var dayOfBirth = parseInt(day.toFixed());
   var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   if (dayOfBirth===0) {
-  alert("You were born on a " + daysOfWeek[0] + "!")
+  document.getElementById("dayOfBirthOutput").innerHTML = "You were born on a " + daysOfWeek[0] + "!"
 }
   else if (dayOfBirth===1) {
-  alert("You were born on a " + daysOfWeek[1] + "!")
+  document.getElementById("dayOfBirthOutput").innerHTML = "You were born on a " + daysOfWeek[1] + "!"
 }
   else if (dayOfBirth===2) {
-  alert("You were born on a " + daysOfWeek[2] + "!")
+  document.getElementById("dayOfBirthOutput").innerHTML = "You were born on a " + daysOfWeek[2] + "!"
 }
   else if (dayOfBirth===3) {
-  alert("You were born on a " + daysOfWeek[3] + "!")
+  document.getElementById("dayOfBirthOutput").innerHTML = "You were born on a " + daysOfWeek[3] + "!"
 }
   else if (dayOfBirth===4) {
-  alert("You were born on a " + daysOfWeek[4] + "!")
+  document.getElementById("dayOfBirthOutput").innerHTML = "You were born on a " + daysOfWeek[4] + "!"
 }
   else if (dayOfBirth===5) {
-  alert("You were born on a " + daysOfWeek[5] + "!")
+  document.getElementById("dayOfBirthOutput").innerHTML = "You were born on a " + daysOfWeek[5] + "!"
 }
   else if (dayOfBirth===6) {
-  alert("You were born on a " + daysOfWeek[6] + "!")
+  document.getElementById("dayOfBirthOutput").innerHTML = "You were born on a " + daysOfWeek[6] + "!"
   }
   else {
     alert("Wrong input, please enter a valid date of birth.")
+  }
+  function maleInput() {
+    var akanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    if (dayOfBirth===3) {
+      alert("Your Akan Name is " + akanNames[3] + "!")
+    }
   }
 }

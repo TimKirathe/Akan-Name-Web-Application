@@ -54,11 +54,12 @@
     </div>
     <hr>
     <label class="label1">Enter your date of birth:</label>
-    <input alt="Date of Birth" id="dobInput" placeholder="Enter your date of birth" type="date" name="dobInput" required />
+    <input alt="Date of Birth" id="dobInput" placeholder="Enter your date of birth" type="date" name="dobInput" max="2021-10-19" required />
     <button type="submit" id="dobSubmit" onclick="dateInput()" name="dobInput">Submit</button>
     <br>
-    <label class="label1">Enter your gender:</label>
-    <input alt="Gender Input" id="genderInput" placeholder="Male/Female" type="text" />
-    <button type="submit" id="genderSubmit" onclick="">Submit</button>
+    <p id="dayOfBirthOutput"></p>
+    <label class="label1">Choose your gender:</label>
+    <button type="submit" onclick="maleInput()" id="maleInput">Male</button>
+    <button type="submit" onclick="">Female</button>
   </body>
 </div>
