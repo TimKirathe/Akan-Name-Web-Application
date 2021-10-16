@@ -15,3 +15,8 @@
   background-image: url(https://i.postimg.cc/6pTgNpxh/tiger-background.jpg);
   background-blend-mode: color-burn;
 }
+.akannames {
+  float: left;
+  column-count: 2;
+
+}
