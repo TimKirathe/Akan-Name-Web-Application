@@ -18,5 +18,8 @@
 .akannames {
   float: left;
   column-count: 2;
-
+}
+.akan1 {
+  margin: 0;
+  padding: inherit;
 }
