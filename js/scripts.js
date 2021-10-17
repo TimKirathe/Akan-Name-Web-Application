@@ -36,13 +36,23 @@ function Input() {
     document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[0] + " and your Akan Name is " + femaleAkanNames[0] + "!"
 }
   else if (gender==="Female" && dayOfBirth===1) {
-    document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[0] + " and your Akan Name is " + femaleAkanNames[0] + "!"
+    document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[1] + " and your Akan Name is " + femaleAkanNames[1] + "!"
 }
-  else if (gender==="Female" && dayOfBirth===2) {}
-  else if (gender==="Female" && dayOfBirth===3) {}
-  else if (gender==="Female" && dayOfBirth===4) {}
-  else if (gender==="Female" && dayOfBirth===5) {}
-  else if (gender==="Female" && dayOfBirth===6) {}
+  else if (gender==="Female" && dayOfBirth===2) {
+    document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[2] + " and your Akan Name is " + femaleAkanNames[2] + "!"
+}
+  else if (gender==="Female" && dayOfBirth===3) {
+    document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[3] + " and your Akan Name is " + femaleAkanNames[3] + "!"
+}
+  else if (gender==="Female" && dayOfBirth===4) {
+    document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[4] + " and your Akan Name is " + femaleAkanNames[4] + "!"
+}
+  else if (gender==="Female" && dayOfBirth===5) {
+    document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[5] + " and your Akan Name is " + femaleAkanNames[5] + "!"
+}
+  else if (gender==="Female" && dayOfBirth===6) {
+    document.getElementById("akanNameOutput").innerHTML ="You were born on a " + daysOfWeek[6] + " and your Akan Name is " + femaleAkanNames[6] + "!"
+}
   else {
     alert("Wrong input, please enter valid information.")
   }
