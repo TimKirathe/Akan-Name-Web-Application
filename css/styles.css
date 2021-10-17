@@ -5,6 +5,7 @@
   text-align: center;
 }
 #body {
+  background-color: #8fbc8f;
 }
 .akannames {
   column-count: 1;
@@ -23,4 +24,16 @@
 .label1 {
   text-align: center;
   margin: 6px;
+  font-weight: bold;
+}
+.back-card {
+  background-color: #;
+  font-size: 20px;
+}
+.head2 {
+  font-family: monospace;
+}
+.card-border {
+  width: 75%;
+  margin: 7px 160px;
 }
