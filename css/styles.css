@@ -39,3 +39,7 @@
   border-radius: 3px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.26)
 }
+#akanNameOutput {
+  font-size: 30px;
+  font-style: italic;
+}
