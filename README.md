@@ -2,6 +2,9 @@
 AKAN NAME Generator
 
 This is a web based application designed to calculate the day you were born and your Akan Name. it takes the input of your date of birth and gender and then uses it to perform calculations and return to you the desired output. This is week 2 of Moringa Schools Prep Independent Project, aimed at challenging our use of javascript, html and css.
+
+[![akan-name-website-photo.png](https://i.postimg.cc/cLrf7DjZ/akan-name-website-photo.png)](https://postimg.cc/ZWz94L4D)
+
 ## Technologies Used
 
 - The languages I used are; HTML, CSS, Bootstrap and Javascript
