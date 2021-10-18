@@ -6,9 +6,7 @@ function Input() {
   let dobSliced4 = parseInt(dob.value.slice(8,10));
   var day = (((dobSliced1/4)-2*dobSliced1-1)+((5*dobSliced2/4))+((26*(dobSliced3+1)/10))+dobSliced4)%7;
   var dayOfBirth = Math.floor(parseInt(day));
-  alert(dayOfBirth);
   var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  alert(daysOfWeek[3]);
   var genderInput = document.getElementById("genderInput");
   let gender = genderInput.value.charAt(0).toUpperCase() + genderInput.value.slice(1);
   var maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
